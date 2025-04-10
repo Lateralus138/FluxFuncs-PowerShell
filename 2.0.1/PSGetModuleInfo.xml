@@ -1,0 +1,122 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">FluxFuncs</S>
+      <Version N="Version">2.0.1</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Ian Pride's random library of functions.</S>
+      <S N="Author">Ian Pride</S>
+      <S N="CompanyName">FluxApex</S>
+      <S N="Copyright">© 2025 Ian Pride</S>
+      <DT N="PublishedDate">2025-04-10T15:22:56-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2025-04-10T10:25:24.5491001-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <Nil N="LicenseUri" />
+      <Nil N="ProjectUri" />
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="7">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">© 2025 Ian Pride</S>
+          <S N="description">Ian Pride's random library of functions.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">0</S>
+          <S N="downloadCount">3</S>
+          <S N="packageSize">20723</S>
+          <S N="published">4/10/2025 3:22:56 PM -05:00</S>
+          <S N="created">4/10/2025 3:22:56 PM -05:00</S>
+          <S N="lastUpdated">4/10/2025 3:22:56 PM -05:00</S>
+          <S N="tags">PSModule</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2025-04-10T15:22:56Z</S>
+          <S N="NormalizedVersion">2.0.1</S>
+          <S N="Authors">Ian Pride</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">FluxFuncs.nuspec|public\Get-KeyInfo.ps1|public\Get-Parent.ps1|public\Get-ProcessHwnd.ps1|public\New-Password.ps1|public\New-RecycleBin.ps1|public\Remove-EmptyDirectories.ps1|public\Restart-Explorer.ps1|public\Set-Cursor.ps1|module.psm1|public\Add-EscapedQuotes.ps1|public\Format-PathEnvironment.ps1|public\Get-AreaOfCircle.ps1|public\Get-BoxDate.ps1|public\Get-DiffUnique.ps1|public\Get-FullPaths.ps1|public\Get-MinecraftChunkRange.ps1|public\Get-PathString.ps1|public\New-Autorun.ps1|FluxFuncs.psd1|public\Convert-DecimalToHexadecimal.ps1|public\Get-AppPackageNames.ps1|public\Get-BoxCharacters.ps1|public\Get-ConsoleProcesses.ps1|public\Get-FileSizesInDirectory.ps1|public\Get-GitHubStats.ps1</S>
+          <S N="GUID">8034a6b0-0d14-4d48-9eaa-eb261eaa8ee1</S>
+          <S N="CompanyName">Unknown</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\flux\Documents\PowerShell\Modules\FluxFuncs\2.0.1</S>
+    </MS>
+  </Obj>
+</Objs>
